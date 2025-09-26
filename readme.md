@@ -10,6 +10,12 @@ Convierte cualquier video en el mismo video con el **skeleton** de MediaPipe sup
 
 ## Instalación
 
+1) Clonar repositorio
+```bash
+git clone https://github.com/MARIA-RF/pose_detector.git
+cd pose_detector
+```
+2) Crear venv y activar (Windows)
 ```bash
 py -m venv .venv
 # Windows
@@ -23,18 +29,5 @@ pip install -r requirements.txt
 ```
 ## Ejecución
 
-1) Clonar repositorio
-```bash
-git clone https://github.com/MARIA-RF/pose_detector.git
-cd pose_detector
-```
-2) Crear venv y activar (Windows)
-```bash
-py -m venv .venv
-.venv\Scripts\Activate
-python.exe -m pip install --upgrade pip
-pip install -r requirements.txt
-```
-3) Ejecutar sobre cualquier video
 ```bash
 python run_pose.py --input "videos\video1.mp4"
