@@ -19,3 +19,7 @@ python -m venv .venv
 
 pip install --upgrade pip
 pip install -r requirements.txt
+
+## Ejecución
+```bash
+python run_pose.py --input "ruta\al\video.mp4"
