@@ -23,15 +23,15 @@ pip install -r requirements.txt
 ```
 ## Ejecución
 
-1) Crear carpeta y entrar (si aún no lo hiciste)
-mkdir simple-pose
-cd simple-pose
+1) Clonar repositorio
+git clone https://github.com/MARIA-RF/pose_detector.git
+cd pose_detector
 
-2) Crear venv y activar (Windows)
+3) Crear venv y activar (Windows)
 python -m venv .venv
 .venv\Scripts\Activate
 pip install --upgrade pip
 pip install -r requirements.txt
 
-3) Ejecutar sobre cualquier video
+4) Ejecutar sobre cualquier video
 python run_pose.py --input "ruta\al\video.mp4"
