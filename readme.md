@@ -11,7 +11,7 @@ Convierte cualquier video en el mismo video con el **skeleton** de MediaPipe sup
 ## Instalación
 
 ```bash
-python -m venv .venv
+py -m venv .venv
 # Windows
 .venv\Scripts\Activate
 # macOS/Linux
