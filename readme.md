@@ -31,3 +31,5 @@ pip install -r requirements.txt
 
 ```bash
 python run_pose.py --input videos\video1.mp4
+
+<img width="772" height="438" alt="image" src="https://github.com/user-attachments/assets/17277d3d-f7b1-446a-8f28-6e065ec8da4b" />
