@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ```
 ## Ejecución
 
-1) Clonar repositorio
+#1) Clonar repositorio
 git clone https://github.com/MARIA-RF/pose_detector.git
 cd pose_detector
 
