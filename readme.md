@@ -23,15 +23,18 @@ pip install -r requirements.txt
 ```
 ## Ejecución
 
-#1) Clonar repositorio
+1) Clonar repositorio
+```bash
 git clone https://github.com/MARIA-RF/pose_detector.git
 cd pose_detector
-
+```
 3) Crear venv y activar (Windows)
+```bash
 python -m venv .venv
 .venv\Scripts\Activate
 pip install --upgrade pip
 pip install -r requirements.txt
-
+```
 4) Ejecutar sobre cualquier video
+```bash
 python run_pose.py --input "ruta\al\video.mp4"
