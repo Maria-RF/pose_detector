@@ -30,4 +30,4 @@ pip install -r requirements.txt
 ## Ejecución
 
 ```bash
-python run_pose.py --input "videos\video1.mp4"
+python run_pose.py --input videos\video1.mp4
