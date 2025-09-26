@@ -37,4 +37,4 @@ pip install -r requirements.txt
 ```
 3) Ejecutar sobre cualquier video
 ```bash
-python run_pose.py --input "ruta\al\video.mp4"
+python run_pose.py --input "videos\video1.mp4"
