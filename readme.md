@@ -17,7 +17,7 @@ py -m venv .venv
 # macOS/Linux
 # source .venv/bin/activate
 
-pip install --upgrade pip
+python.exe -m pip install --upgrade pip
 pip install -r requirements.txt
 
 ```
@@ -32,7 +32,7 @@ cd pose_detector
 ```bash
 py -m venv .venv
 .venv\Scripts\Activate
-pip install --upgrade pip
+python.exe -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 3) Ejecutar sobre cualquier video
