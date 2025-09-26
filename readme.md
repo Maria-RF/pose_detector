@@ -30,7 +30,7 @@ cd pose_detector
 ```
 2) Crear venv y activar (Windows)
 ```bash
-python -m venv .venv
+py -m venv .venv
 .venv\Scripts\Activate
 pip install --upgrade pip
 pip install -r requirements.txt
