@@ -18,6 +18,7 @@ cd pose_detector
 2) Crear venv y activar (Windows)
 ```bash
 py -m venv .venv
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 # Windows
 .venv\Scripts\Activate
 # macOS/Linux
